@@ -1,0 +1,35 @@
+Gene_Symbol,log2FC,P.Value,Gene_Description,Significance
+NNAT,-1.06358518350829,0.00908939156517016,neuronatin,Down
+TCF19,-1.39747668973157,0.0209392632968486,transcription factor 19,Down
+ALDH1A1,-1.08258965605744,8.94164769843298e-05,aldehyde dehydrogenase 1 family member A1,Down
+CAVIN2,-1.15026914627626,0.00241151953797046,caveolae associated protein 2,Down
+SP140L,-1.41874822972395,0.00765317860939729,SP140 nuclear body protein like,Down
+RGPD1,-1.0537276509528,0.000102042280692094,RANBP2 like and GRIP domain containing 1,Down
+C6orf47,1.51557578785373,4.4245986464509e-05,chromosome 6 open reading frame 47,Up
+AGPAT1,-1.12190264043932,0.0112026522047169,1-acylglycerol-3-phosphate O-acyltransferase 1,Down
+CSNK2B,-1.24762786359862,0.00332644018637365,casein kinase 2 beta,Down
+PRRC2A,-1.10025685102234,7.28603432010151e-06,proline rich coiled-coil 2A,Down
+RING1,2.49632366681343,0.0304601012802093,ring finger protein 1,Up
+HLA-B,1.24668487412892,0.0474072013256396,"major histocompatibility complex, class I, B",Up
+PPP1R11,1.68479789668057,0.000257262315136912,protein phosphatase 1 regulatory inhibitor subunit 11,Up
+HLA-A,1.77940242883498,1.93286606076708e-07,"major histocompatibility complex, class I, A",Up
+DDAH2,-1.5493013264053,0.000106468096641408,"DDAH family member 2, ADMA-independent",Down
+HLA-A,-1.37764833494379,3.65005632515171e-05,"major histocompatibility complex, class I, A",Down
+PRRC2A,1.67433471539948,3.69223106744669e-09,proline rich coiled-coil 2A,Up
+C6orf47,1.51522005844088,4.44115270698285e-05,chromosome 6 open reading frame 47,Up
+C6orf47,1.51544201613375,4.42427072397339e-05,chromosome 6 open reading frame 47,Up
+TUBB,2.54764671991266,0.000775789459008442,tubulin beta class I,Up
+ZBTB22,-1.03872531814304,0.0458518351657596,zinc finger and BTB domain containing 22,Down
+COL11A2,-1.45526420494666,0.00303263415384312,collagen type XI alpha 2 chain,Down
+CSNK2B,-1.2880128679616,0.00349285585072638,casein kinase 2 beta,Down
+HLA-A,-1.37739117849874,3.66172550271543e-05,"major histocompatibility complex, class I, A",Down
+ZBTB22,-1.03880578735232,0.0458320663452336,zinc finger and BTB domain containing 22,Down
+DDR1,3.12289145699741,7.07226336086301e-17,discoidin domain receptor tyrosine kinase 1,Up
+CLIC1,-1.0857902617747,1.32779218803541e-07,chloride intracellular channel 1,Down
+VARS2,1.45011736054787,0.00321074742273938,"valyl-tRNA synthetase 2, mitochondrial",Up
+TRIM26,1.40958728063493,0.0445282976432649,tripartite motif containing 26,Up
+GABBR1,-2.76444326298921,0.0314633521693732,gamma-aminobutyric acid type B receptor subunit 1,Down
+CSNK2B,-1.25524433703252,0.00548802727225609,casein kinase 2 beta,Down
+RING1,2.49654049342636,0.0307287129677744,ring finger protein 1,Up
+RXRB,1.88978429247943,2.11321462241583e-10,retinoid X receptor beta,Up
+F8A3,3.33424092180273,2.85619824830326e-32,coagulation factor VIII associated 3,Up

@@ -1,0 +1,2 @@
+ID,Description,GeneRatio,BgRatio,RichFactor,FoldEnrichment,zScore,pvalue,p.adjust,qvalue,geneID,Count
+GO:0050830,defense response to Gram-positive bacterium,2/7,51/14901,0.0392156862745098,83.4789915966387,12.7909170709415,0.000238557824694715,0.0479501227636377,0.0241068959691502,HLA-A/PPP1R11,2
