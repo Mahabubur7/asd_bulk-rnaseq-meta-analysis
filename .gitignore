@@ -1,1 +1,8 @@
+# R project files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Word temp lock files
 ~$*
