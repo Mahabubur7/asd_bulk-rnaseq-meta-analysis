@@ -8,6 +8,8 @@ library(org.Hs.eg.db)
 library(ReactomePA)
 library(msigdbr)
 
+options(timeout = 300)  # KEGG REST API downloads can exceed the 60s default
+
 # Pin dplyr verbs
 select <- dplyr::select; filter <- dplyr::filter; mutate <- dplyr::mutate
 rename <- dplyr::rename; arrange <- dplyr::arrange; desc <- dplyr::desc
