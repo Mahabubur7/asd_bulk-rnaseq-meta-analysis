@@ -62,7 +62,8 @@ asd_bulk-rnaseq-meta-analysis/
 │   ├── 07_enrichment_analysis.R           # ORA (GO/KEGG/Reactome) + GSEA (GO-BP/KEGG/Hallmark)
 │   ├── 08_network_analysis.R              # STRING PPI network + hub genes + community detection
 │   ├── 09_heatmap.R                       # Z-score expression heatmap (ComplexHeatmap)
-│   └── 10_composite_panel.R               # Multi-panel publication figure
+│   ├── 10_composite_panel.R               # Multi-panel publication figure
+│   └── 11_publication_tables.R            # Formatted publication tables (gt/flextable, DOCX + PNG)
 ├── data/
 │   ├── raw_counts/
 │   │   ├── GSE67528_raw_counts.csv        # Gene-level raw counts (GeneID + samples)
@@ -77,7 +78,8 @@ asd_bulk-rnaseq-meta-analysis/
     │   ├── venn/                          # Overlap tables, common genes
     │   ├── meta-analysis/                 # REM results, filtered DEGs, combining approach
     │   ├── enrichment/                    # GO/KEGG/Hallmark/Reactome CSV tables
-    │   └── network/                       # Network metrics, hub genes, modules
+    │   ├── network/                       # Network metrics, hub genes, modules
+    │   └── publication/                   # Formatted publication tables (DOCX)
     └── figures/
         ├── PCA/                           # Pre/post SVA correction PCA plots
         ├── venn/                          # Venn diagram
@@ -85,7 +87,8 @@ asd_bulk-rnaseq-meta-analysis/
         ├── enrichment/                    # Dotplots, enrichment score plots
         ├── network/                       # PPI network, hub gene barplot
         ├── heatmap/                       # Z-score + mean log2FC heatmaps
-        └── composite/                     # Multi-panel publication figure
+        ├── composite/                     # Multi-panel publication figure
+        └── tables/                        # Publication table images (PNG)
 ```
 
 ## How to Run
@@ -121,6 +124,7 @@ asd_bulk-rnaseq-meta-analysis/
    source("scripts/08_network_analysis.R")
    source("scripts/09_heatmap.R")
    source("scripts/10_composite_panel.R")
+   source("scripts/11_publication_tables.R")
    ```
 
    Each script reads outputs from the previous step (saved as CSV/RDS files), so they can also be run individually for debugging or re-analysis.
@@ -138,6 +142,7 @@ asd_bulk-rnaseq-meta-analysis/
 | 08_network | ~1 min | STRING API call |
 | 09_heatmap | ~2 min | VST on both datasets |
 | 10_composite | < 1 min | Panel assembly |
+| 11_publication_tables | ~1 min | gt/flextable rendering, webshot2 |
 
 ## Technical Notes
 
